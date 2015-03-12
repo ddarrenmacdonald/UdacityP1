@@ -1,0 +1,60 @@
+/* Custom CSS Styles for darrenmacdonald.ca */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #3F679F;
+  font-weight: 300;
+  background-color: #3D4244;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-family: 'Megrim', cursive;
+  font-size: 50px;
+  color: #9ACE5C;
+  padding-top: 20px;
+}
+
+.header h4 {
+  color: #BCBBBB;
+  font-family: 'Rock Salt', cursive;
+  font-size: 25px;
+}
+
+hr {
+  color: #BCBBBB;
+  clear: both;
+  padding-bottom: 10px;
+}
+.text-muted {
+  color: #BCBBBB;
+  font-family: 'Rock Salt', cursive;
+}
+
+h3 {
+  text-align: center;
+  color: #9ACE5C;
+}
+
+@media (max-width: 960px) {
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1, h2, h4 {
+    text-align: center;
+  }
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+footer { 
+    display: block;
+    text-align: center;
+}
